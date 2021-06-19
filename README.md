@@ -9,8 +9,6 @@ Gabriel Santos Martins Dias| 172441	|Computação
 Wellen Góbi Botacin         | 224798 |Saúde
 Wellington Cesar Alves     | 261819 |Saúde
 
-Link do video de apresentação do trabalho 
-[Video de apresentação de Ciência de Dados em Saúde](https://youtu.be/IGkQDs6klbo).
 
 ## Descrição Resumida do projeto 
 
@@ -25,6 +23,13 @@ Link do video de apresentação do trabalho
   Embora uma molécula orgânica de um sólido possa existir sob duas ou mais formas cristalinas, apenas uma destas formas é termodinamicamente estável a uma determinada pressão e temperatura, com níveis energéticos potencialmente mais baixos, devido à redução do seu volume molecular em relação aos amorfos ou outro estado desordenado. Em geral, a forma mais estável (menor energia livre) de uma substância polimórfica exibe um ponto de fusão mais alto e menor solubilidade com o máximo de estabilidade química, ou seja, mantém sua integridade química dentro de limites especificados e as mesmas propriedades e características durante o período de armazenamento e uso (RAW et al., 2004; VISHWESHWAR et al., 2006).
   
   O polimorfismo pode também resultar em alterações na estabilidade química, principalmente para compostos com predisposição à degradação no estado sólido (ARAÚJO, 2009). Porém, dentre as consequências do polimorfismo, a mais crítica é a diferença na biodisponibilidade dos diferentes polimorfos de um fármaco, uma vez que, a velocidade de absorção de um fármaco depende da sua velocidade de dissolução, podendo torná-lo menos ativo, inativo ou tóxico de acordo com o tipo de polimorfo empregado (FERREIRA, 2011; CUFFINI et al., 2011).
+  
+# Vídeos do Projeto
+
+## Vídeo da Proposta
+
+[Video de apresentação de Ciência de Dados em Saúde - Proposta](https://youtu.be/6PfZkR7TSeM).
+
 
 # Slides do Projeto
 
