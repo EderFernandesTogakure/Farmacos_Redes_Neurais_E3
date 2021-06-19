@@ -26,6 +26,12 @@ Link do video de apresentação do trabalho
   
   O polimorfismo pode também resultar em alterações na estabilidade química, principalmente para compostos com predisposição à degradação no estado sólido (ARAÚJO, 2009). Porém, dentre as consequências do polimorfismo, a mais crítica é a diferença na biodisponibilidade dos diferentes polimorfos de um fármaco, uma vez que, a velocidade de absorção de um fármaco depende da sua velocidade de dissolução, podendo torná-lo menos ativo, inativo ou tóxico de acordo com o tipo de polimorfo empregado (FERREIRA, 2011; CUFFINI et al., 2011).
 
+# Slides do Projeto
+
+## Slide da Proposta
+
+[Slide da proposta do projeto](https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/blob/main/assets/Proposta.pptx).
+
 ## Pergunta de pesquisa
 
 O algoritmo machine learning desenvolvido é eficaz na identificação de polimorfos de fármacos para auxiliar a industria farmaceutica na produção de medicamentos de melhor solubilidade?
