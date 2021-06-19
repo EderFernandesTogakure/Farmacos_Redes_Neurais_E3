@@ -75,10 +75,16 @@ Será detalhado todos os processos da imagem acima:
 
 ## Bases de Dados e Evolução
   As bases de dados utilizadas serão imagens de processos de identificação de componentes fármacos feitas em microscópios óticos de forma manual. 
+## Bases Estudadas e Adotadas
+As bases de dados estudadas foram imagens de analise reais de polimorfos farmacos, na qual foram feitas pelo farmaceuto da equipe.
+
+Com estas imagens adquiridas foram feitos os devidos aumentos de dados destas imagens, para serem  utilizadas para treinamento, teste e validação dos componentes farmaceuticos.
+
+Com o treinamento, testes e validação destes dados foi descoberto que é possivel fazer a deteção dos polimorfos farmacos, logo agilizando o processo de identificação do mesmo. 
 
 Base de Dados              |  Endereço na Web  |Especialização
 ---------------------------|-------------------|---------------
-Imagens Carbazepina        | https://drive.google.com/drive/folders/18DAq2LHdic0h5BrjEQ0FzsVOsHl3ztD3?usp=sharing	           |Imagens tirados diretos do microscopio forma 1 e 3,foi separado as imagens de treino e teste, utilizando redes neurais convolucionais para detecção dos fármacos.
+Imagens Carbazepina e planilha analise         | https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/tree/main/data	           |Imagens tirados diretos do microscopio forma 1 e 3,foi separado as imagens de treino e teste, utilizando redes neurais convolucionais para detecção dos fármacos.
 
 ## Resultados esperados
 
