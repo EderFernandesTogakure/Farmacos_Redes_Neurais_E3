@@ -14,21 +14,24 @@ Link do video de apresentação do trabalho
 
 ## Descrição Resumida do projeto 
 
-   Um determinado fármaco, no estado sólido, pode se apresentar em diferentes formas. Estas formas incluem polimorfos (capacidade de uma substância se apresentar em duas ou mais formas cristalinas) e amorfos (formas sólidas que não têm nenhuma ordem molecular).
+Um determinado fármaco, no estado sólido, pode se apresentar em diferentes formas. Estas formas incluem polimorfos (capacidade de uma substância se apresentar em duas ou mais formas cristalinas) e amorfos (formas sólidas que não têm nenhuma ordem molecular).
    
-  O fenômeno do polimorfismo apresenta um desafio na indústria farmacêutica que pretende desenvolver medicamentos de qualidade, pois o desconhecimento das diferentes formas cristalinas e a influência destas no preparo de um medicamento poderá acarretar em grandes prejuízos para a saúde do paciente. Com isso, a pesquisa na área de polimorfismo é extremamente necessária e atual, sendo um assunto que não deve ser encarado somente como um problema, mas como um processo, que deve ser estudado e monitorado, desde a síntese da substância ativa até o armazenamento, resultando em maior qualidade aos medicamentos.
-  
-  A capacidade de uma molécula cristalizar em duas ou mais formas é definida como polimorfismo.
-  
-  Polimorfos diferentes de um mesmo composto geralmente apresentam diferenças significativas de solubilidade, processabilidade e estabilidade física e química. Estas diferenças físico-químicas modificam o comportamento da molécula quando em um meio biológico, inclusive podendo alterar sua biodisponibilidade.
-  
-  Embora uma molécula orgânica de um sólido possa existir sob duas ou mais formas cristalinas, apenas uma destas formas é termodinamicamente estável a uma determinada pressão e temperatura, com níveis energéticos potencialmente mais baixos, devido à redução do seu volume molecular em relação aos amorfos ou outro estado desordenado. Em geral, a forma mais estável (menor energia livre) de uma substância polimórfica exibe um ponto de fusão mais alto e menor solubilidade com o máximo de estabilidade química, ou seja, mantém sua integridade química dentro de limites especificados e as mesmas propriedades e características durante o período de armazenamento e uso (RAW et al., 2004; VISHWESHWAR et al., 2006).
-  
-  O polimorfismo pode também resultar em alterações na estabilidade química, principalmente para compostos com predisposição à degradação no estado sólido (ARAÚJO, 2009). Porém, dentre as consequências do polimorfismo, a mais crítica é a diferença na biodisponibilidade dos diferentes polimorfos de um fármaco, uma vez que, a velocidade de absorção de um fármaco depende da sua velocidade de dissolução, podendo torná-lo menos ativo, inativo ou tóxico de acordo com o tipo de polimorfo empregado (FERREIRA, 2011; CUFFINI et al., 2011).
+O fenômeno do polimorfismo apresenta um desafio na indústria farmacêutica que pretende desenvolver medicamentos de qualidade, pois o desconhecimento das diferentes formas cristalinas e a influência destas no preparo de um medicamento poderá acarretar em grandes prejuízos para a saúde do paciente. Com isso, a pesquisa na área de polimorfismo é extremamente necessária e atual, sendo um assunto que não deve ser encarado somente como um problema, mas como um processo, que deve ser estudado e monitorado, desde a síntese da substância ativa até o armazenamento, resultando em maior qualidade aos medicamentos.
+
+Polimorfos diferentes de um mesmo composto geralmente apresentam diferenças significativas de solubilidade, processabilidade e estabilidade física e química. Estas diferenças físico-químicas modificam o comportamento da molécula quando em um meio biológico, inclusive podendo alterar sua biodisponibilidade.
+
+Embora uma molécula orgânica de um sólido possa existir sob duas ou mais formas cristalinas, apenas uma destas formas é termodinamicamente estável a uma determinada pressão e temperatura, com níveis energéticos potencialmente mais baixos, devido à redução do seu volume molecular em relação aos amorfos ou outro estado desordenado. Em geral, a forma mais estável (menor energia livre) de uma substância polimórfica exibe um ponto de fusão mais alto e menor solubilidade com o máximo de estabilidade química, ou seja, mantém sua integridade química dentro de limites especificados e as mesmas propriedades e características durante o período de armazenamento e uso (RAW et al., 2004; VISHWESHWAR et al., 2006).
+
+O polimorfismo pode também resultar em alterações na estabilidade química, principalmente para compostos com predisposição à degradação no estado sólido (ARAÚJO, 2009). Porém, dentre as consequências do polimorfismo, a mais crítica é a diferença na solubilidade dos diferentes polimorfos de um fármaco, uma vez que, a velocidade de absorção de um fármaco depende da sua velocidade de dissolução, podendo torná-lo menos ativo, inativo ou tóxico de acordo com o tipo de polimorfo empregado (FERREIRA, 2011; CUFFINI et al., 2011).
+
+Diante desse contexto, esse projeto surgiu com a motivação de, por meio de um algoritmo de Machine Learning, identificar polimorfos exatos para auxiliar na produção de medicamentos com adequada solubilidade e consequente absorção necessária.
+
+
+
 
 ## Pergunta de pesquisa
 
-O algoritmo machine learning desenvolvido é eficaz na identificação de polimorfos de fármacos para auxiliar a industria farmaceutica na produção de medicamentos de melhor solubilidade?
+O algoritmo de Machine Learning desenvolvido é eficaz na identificação de polimorfos de fármacos para auxiliar a indústria farmacêutica na produção de medicamentos com qualidade, solubilidade e estabilidade adequadas?
 
 ## Objetivos do Projeto
 
