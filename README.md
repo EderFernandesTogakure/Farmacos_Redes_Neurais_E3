@@ -82,7 +82,9 @@ A grande maioria dos medicamentos comercializados pelas indústrias farmacêutic
 
 Por ser uma temática nova, ainda não existem publicações com o mesmo formato deste trabalho. Têm-se publicações semelhantes , sendo exemplos:
 
-YOLO: Real-Time Object Detection . pjreddie, 2018. Disponivel em: < https://pjreddie.com/darknet/yolo/>. Acesso em: 26 Abr. 2021
+YOLO: Real-Time Object Detection . pjreddie, 2018. Disponivel em: < https://pjreddie.com/darknet/yolo/>. Acesso em: 26 Abr. 2021.
+
+YOLO v3 theory explained. Pylessons, 2019. Disponível em: <https://pylessons.com/YOLOv3-introduction/>. Acesso em: 26 abr. 2021.
 
 SHAKAMARI, A.; MENHAJ, M. B.; HORMAT, A. M.; TARRAH, H. A fast and yet efficient YOLOv3 for blood cell detection. Biomedical Signal Processing and Control, V. 66, Abril 2021.
 
@@ -107,6 +109,13 @@ O projeto possui como objetivo principal a criação de um algoritmo machine lea
 * Avaliar sua disponibilidade de utilização.
 
 ## Metodologia 
+  A carbamazepina é um fármaco que apresenta baixa solubilidade, estreita janela terapêutica e exibe polimorfismo. A presença de diferentes polimorfos da carbamazepina em medicamentos está relacionada com propriedades de solubilidade de dissolução limitadas, onde apenas a forma polimórfica III deve estar presente em produtos comerciais. 
+  
+  Foi disponibilizada amostra de insumo farmacêutico ativo carbamazepina em sua forma polimórfica comercial III, analisada e verificada sua identidade em microscópio óptico.
+Parte da amostra do insumo foi submetido à temperatura de 170°C em equipamento de Analise térmica DSC (Calorimetria exploratória diferencial) até conversão de seu estado cristalino em forma polimórfica I.
+
+  Foram analisadas e verificadas quanto a sua identidade e confirmada presença de forma polimórfica III.
+Posteriormente foram geradas as imagens utilizadas para treinamento do algoritimo a partir das duas formas polimórficas, separadamente e com misturas realizadas entre elas, em microscópio ótico acoplado a software de captação de imagens.
 
   Obtenção da Base de Dados: Foi utilizado um Microscópio Óptico para se obter dezenas de imagens. Em seguida, sobre essas imagens, foi utilizado o processo de Data Augmentation (Aumento de dados de imagem) para gerar novas imagens de treinamento a fim de aumentar a generalidade do modelo e reduzir um possível overfitting (modelo treinado apenas para imagens utilizadas no estudo). 
   
@@ -114,6 +123,8 @@ O projeto possui como objetivo principal a criação de um algoritmo machine lea
 Abaixo, segue imagem ilustrando o processo.
 
 ![relatório](https://user-images.githubusercontent.com/25067632/120075355-4ec35f00-c077-11eb-9fa7-cd96279ef307.jpg)
+
+  
 
 ## Ferramentas
 
@@ -155,13 +166,19 @@ Base de Dados              |  Endereço na Web  |Especialização
 ---------------------------|-------------------|---------------
 Imagens Carbazepina e planilha analise         | https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/tree/main/data	           |Imagens tirados diretos do microscopio forma 1 e 3,foi separado as imagens de treino e teste, utilizando redes neurais convolucionais para detecção dos fármacos.
 
-## Resultados esperados
+## Análises realizadas 
 
-  Espera-se que esse algoritmo seja eficaz na identificação de polimorfos em fármacos de forma rápida, precisa, exata, segura, livre de erros de interpretação humana e que agilize o processo.
+## Resultados
+
+  Na determinação do polimorfismo da Carbamazepina utilizando a ferramenta proposta, a exatidão dos resultados encontrados em comparação a avaliação de especialista, estabeleceu-se em 75% de acerto.
   
-## Cronograma
+  Foi observada pequena variação nos resultados, sendo mais eficiente para avaliação e identificação da forma polimórfica III.
+  
+  Compreendemos e admitimos que a ferramenta proposta de mostra viável, de acordo com os resultados encontrados. E entendemos também, que há possibilidade de melhora de eficiência de identificação, principalmente com a ampliação do numero de imagens para treinamento do algoritmo proposto.
+  
+![image](https://user-images.githubusercontent.com/25067632/122995124-92ac3a00-d37f-11eb-92c6-a3749775cc9c.png)
 
-![cronograma](https://user-images.githubusercontent.com/25067632/113520254-27b14b00-9568-11eb-9a95-017eb2a383a7.jpg)
+
 
 ## Referências:
 
@@ -180,6 +197,8 @@ VISHWESHWAR, P.; MCMAHON, J. A.; BIS, J. A.; ZAWOROTKO, M. J. Pharmaceutical co-
 YOLO v3 theory explained. Pylessons, 2019. Disponível em: <https://pylessons.com/YOLOv3-introduction/>. Acesso em: 26 abr. 2021.
 
 YOLO: Real-Time Object Detection . pjreddie, 2018. Disponivel em: < https://pjreddie.com/darknet/yolo/>. Acesso em: 26 Abr. 2021
+
+SHAKAMARI, A.; MENHAJ, M. B.; HORMAT, A. M.; TARRAH, H. A fast and yet efficient YOLOv3 for blood cell detection. Biomedical Signal Processing and Control, V. 66, Abril 2021.
 
 
 
