@@ -168,17 +168,58 @@ Imagens Carbazepina e planilha analise         | https://github.com/EderFernande
 
 ## Análises realizadas 
 
-## Resultados
+O projeto se inicializou com os problemas presentes nas formas polimorficas dos farmacos, na qual  dependendo do polimorfo presente no farmaco, poderia não ter sulobilidade no organismo de maneira adequada.
+
+O processo de identificação dos polimorfos farmaceuticos e feito de forma manual por especialista, na qual foi pensado em automatizar este processo para ter um melhor controle de qualidade sobre estes polimorfos farmaceuticos.
+
+A primeira parte do projeto não foi muito satifatorio pois estavamos diferenciando dois polimofos, um de cada farmaco, exemplo um polimorfo do farmaco Dipirona e outro da Carbamazepina, mas foi percebido que a intenção é descobrir polimorfos diferentes em um farmaco e indicar se o polimorfo presente naquele farmaco tem boa sulobilidade.
+
+Com isso foram feitas imagens de analises reais do farmaco Carbamazepina com dois tipos de polimorfos, um dos polimorfos com alta sulobilidade e outro com baixa sulobilidade, com estas imagens elaboradas foram feitas os seus aumentos de dados com pequenas distorções nas imagens afim de obter uma boa perfermance no treinamento.
+
+Foram utilizado o modelo do YOLOv3 para treinamento, teste e validação destas imagens, veja logo abaixo um trecho do notebook para fazer o treinamento das imagens.
+
+from train import *
+tf.keras.backend.clear_session()
+main()
+
+Depois de feito o trenamento e teste do modelo, foi elaborado a validação no trecho do notebook logo abaixo
+
+yolo = Create_Yolov3(input_size=input_size, CLASSES=TRAIN_CLASSES)
+yolo.load_weights("./checkpoints/yolov3_custom")
+
+image_path   = "./IMAGES/Carba_F1_16.jpg"
+image = detect_image(yolo, image_path, "", input_size=input_size, show=False, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
+image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+
+plt.figure(figsize=(30,15))
+plt.imshow(image)
+plt.savefig('IMAGES/Carba_F1_16_detect.jpg')
+
+Veja o resultado da predição na imagem abaixo
+
+![download](https://user-images.githubusercontent.com/25067632/123012748-37874100-d399-11eb-9856-b883afd3c212.png)
+
+
+
+
+
+## Resultados/discussão
 
   Na determinação do polimorfismo da Carbamazepina utilizando a ferramenta proposta, a exatidão dos resultados encontrados em comparação a avaliação de especialista, estabeleceu-se em 75% de acerto.
   
   Foi observada pequena variação nos resultados, sendo mais eficiente para avaliação e identificação da forma polimórfica III.
   
-  Compreendemos e admitimos que a ferramenta proposta de mostra viável, de acordo com os resultados encontrados. E entendemos também, que há possibilidade de melhora de eficiência de identificação, principalmente com a ampliação do numero de imagens para treinamento do algoritmo proposto.
-  
-![image](https://user-images.githubusercontent.com/25067632/122995124-92ac3a00-d37f-11eb-92c6-a3749775cc9c.png)
+  Compreendemos e admitimos que a ferramenta proposta se mostra viável, de acordo com os resultados encontrados. E entendemos também, que há possibilidade de melhora de eficiência de identificação, principalmente com a ampliação do numero de imagens para treinamento do algoritmo proposto.
+
+## Conclusão
 
 
+
+## Trabalhos futuros
+
+* Elaborar artigos cientificos;
+* Aprimorar a ferramenta;
+* Patentear a ferramenta.
 
 ## Referências:
 
