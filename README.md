@@ -178,9 +178,7 @@ Com isso foram feitas imagens de analises reais do farmaco Carbamazepina com doi
 
 Foram utilizado o modelo do YOLOv3 para treinamento, teste e validação destas imagens, veja logo abaixo um trecho do notebook para fazer o treinamento das imagens.
 
-from train import *
-tf.keras.backend.clear_session()
-main()
+![cod1](https://user-images.githubusercontent.com/25067632/123013086-e0ce3700-d399-11eb-9d0d-9c93353c01bd.jpg)
 
 Depois de feito o trenamento e teste do modelo, foi elaborado a validação no trecho do notebook logo abaixo
 
