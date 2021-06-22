@@ -182,16 +182,7 @@ Foram utilizado o modelo do YOLOv3 para treinamento, teste e validação destas 
 
 Depois de feito o trenamento e teste do modelo, foi elaborado a validação no trecho do notebook logo abaixo
 
-yolo = Create_Yolov3(input_size=input_size, CLASSES=TRAIN_CLASSES)
-yolo.load_weights("./checkpoints/yolov3_custom")
-
-image_path   = "./IMAGES/Carba_F1_16.jpg"
-image = detect_image(yolo, image_path, "", input_size=input_size, show=False, CLASSES=TRAIN_CLASSES, rectangle_colors=(255,0,0))
-image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-
-plt.figure(figsize=(30,15))
-plt.imshow(image)
-plt.savefig('IMAGES/Carba_F1_16_detect.jpg')
+![cod2](https://user-images.githubusercontent.com/25067632/123013428-95685880-d39a-11eb-90ae-5174e41a7a94.jpg)
 
 Veja o resultado da predição na imagem abaixo
 
