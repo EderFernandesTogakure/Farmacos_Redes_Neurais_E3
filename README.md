@@ -37,6 +37,63 @@ Wellington Cesar Alves     | 261819 |Saúde
 
 [Slide da proposta do projeto](https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/blob/main/assets/Proposta.pptx).
 
+# Introdução e Referenciais de Teóricos
+
+## Contextualização do projeto
+
+Um determinado fármaco, no estado sólido, pode apresentar-se em diferentes formas. Estas formas incluem polimorfos (capacidade de uma substância se apresentar em duas ou mais formas cristalinas) e amorfos (formas sólidas que não têm nenhuma ordem molecular).
+
+Embora uma molécula orgânica de um sólido possa existir sob duas ou mais formas cristalinas, apenas uma destas formas é termodinamicamente estável a uma determinada pressão e temperatura, com níveis energéticos potencialmente mais baixos, devido à redução do seu volume molecular em relação aos amorfos ou outro estado desordenado. Em geral, a forma mais estável (menor energia livre) de uma substância polimórfica exibe um ponto de fusão mais alto e menor solubilidade com o máximo de estabilidade química, ou seja, mantém sua integridade química dentro de limites especificados e as mesmas propriedades e características durante o período de armazenamento e uso (RAW et al., 2004; VISHWESHWAR et al., 2006).
+
+O fenômeno do polimorfismo apresenta um desafio na indústria farmacêutica que pretende desenvolver medicamentos de qualidade, pois o desconhecimento das diferentes formas cristalinas e a influência destas no preparo de um medicamento poderá acarretar em grandes prejuízos para a saúde do paciente. Com isso, a pesquisa na área de polimorfismo é extremamente necessária e atual, sendo um assunto que não deve ser encarado somente como um problema, mas como um processo que deve ser estudado e monitorado, desde a síntese da substância ativa até o armazenamento, resultando em maior qualidade aos medicamentos.
+
+A capacidade de uma molécula cristalizar em duas ou mais formas é definida como polimorfismo. Polimorfos diferentes de um mesmo composto geralmente apresentam diferenças significativas de solubilidade, processabilidade e estabilidade física e química. Estas diferenças físico-químicas modificam o comportamento da molécula quando em um meio biológico, inclusive podendo alterar sua biodisponibilidade.
+
+O polimorfismo pode também resultar em alterações na estabilidade química, principalmente para compostos com predisposição à degradação no estado sólido (ARAÚJO, 2009). Porém, dentre as consequências do polimorfismo, a mais crítica é a diferença na biodisponibilidade dos diferentes polimorfos de um fármaco, uma vez que, a velocidade de absorção de um fármaco depende da sua velocidade de dissolução, podendo torná-lo menos ativo, inativo ou tóxico de acordo com o tipo de polimorfo empregado (FERREIRA, 2011; CUFFINI et al., 2011).
+
+Pretende-se utilizar o machine learning para esta tarefa. Proporcionando um “aprendizado” à máquina para que ela facilite este processo de reconhecimento, aproximando cada vez mais tecnologia e saúde.
+
+## Caracterização do problema
+
+Polimorfismo é a capacidade de um determinado fármaco no estado sólido se apresentar em duas ou mais formas cristalinas e amorfos (formas sólidas que não têm nenhuma ordem molecular). O sólido cristalino é formado por átomos, moléculas ou íons, arranjados de uma forma periódica em três dimensões, onde as posições ocupadas seguem uma ordenação que se repete, segundo uma ordem definida ao longo de toda a partícula. No estado sólido, os átomos de uma molécula podem existir em um dos sete arranjos cristalinos fundamentais: triclínico, monoclínico, ortorrômbico, romboédrico, tetragonal, hexagonal ou cúbico. 
+
+Em outras palavras, a forma morfológica do fármaco tem a capacidade de influenciar a solubilidade do ativo no trato gastrointestinal, consequentemente alterando características de absorção que por sua vez define se haverá efeito terapêutico desejado.
+
+O machine learning, termo que possui diversas definições, pode ser chamado aprendizado de máquina, com um sistema que pode modificar o seu comportamento com base em sua experiência, com mínima intervenção humana. Pode ser utilizado em diversas áreas, como por exemplo em bancos de dados autônomos ou combate a fraudes em sistemas de pagamento (ALMEIDA, 2021).
+
+Dessa maneira, o intuito do trabalho conduzido é avaliar a eficiência do algoritmo machine learning, desenvolvido na identificação e quantificação de formas, unindo computação e saúde no propósito de melhorar a fabricação de medicamentos e, consequentemente, seus resultados na população. 
+
+## Motivação
+
+A motivação deste trabalho é desenvolver um algoritmo machine learning, que agilize esse processo de identificação do polimorfismo dos fármacos, facilitando seu processo de identificação. 
+
+## Relevância
+
+O fenômeno do polimorfismo representa um desafio na indústria farmacêutica que pretende desenvolver medicamentos de qualidade, pois o desconhecimento das diferentes formas cristalinas e a influência destas no preparo de um medicamento poderá acarretar grandes prejuízos para a saúde do paciente, além de prejuízos ao fabricante. 
+
+O ponto de partida para a fabricação de fármacos é a pré-formulação, sendo a primeira fase do desenvolvimento de formas farmacêuticas voltadas para a substância farmacologicamente ativa.
+Nesta fase ocorre a análise do fármaco em suas características físico-químicas como solubilidade, presença ou não de formas polifórmicas e seu comportamento frente à excipientes farmacêuticos ou outras substâncias farmacologicamente ativas.
+
+Na indústria farmacêutica o polimorfismo é considerado um parâmetro fundamental na fabricação de medicamentos sólidos, pois a criação de um fármaco sob uma ou outra forma cristalina implica nas propriedades físico-químicas desta substância, que irão afetar diretamente a solubilidade, e consequentemente a biodisponibilidade ou cinética. 
+
+A grande maioria dos medicamentos comercializados pelas indústrias farmacêuticas encontra-se em formas farmacêuticas sólidas de uso oral que apesar de serem de fácil administração ao paciente, necessitam que o fármaco seja biodisponibilizado em tempo adequado no organismo. Este trabalho busca, com auxílio de um algoritmo, facilitar esse processo e produzir medicamentos com maior qualidade. 
+
+## Trabalhos relacionados
+
+Por ser uma temática nova, ainda não existem publicações com o mesmo formato deste trabalho. Têm-se publicações semelhantes , sendo exemplos:
+
+YOLO: Real-Time Object Detection . pjreddie, 2018. Disponivel em: < https://pjreddie.com/darknet/yolo/>. Acesso em: 26 Abr. 2021
+
+SHAKAMARI, A.; MENHAJ, M. B.; HORMAT, A. M.; TARRAH, H. A fast and yet efficient YOLOv3 for blood cell detection. Biomedical Signal Processing and Control, V. 66, Abril 2021.
+
+RAUJO, G. L. B. Caracterização no estado sólido dos polimorfos de tibolona. Tese (Doutorado em Farmácia) - Faculdade de Ciências Farmacêuticas, Universidade de São Paulo, São Paulo, 2009.
+
+CUFFINI, S. L.; PITALUGA, J. R. A; TOMBARI, D. Polimorfismo em fármacos. In: STORPIRTIS, S.; GONÇALVES, J. E.; CHIANN, C.; GAI, M. N.; editors. Biofarmacotécnica. Rio de Janeiro: Guanabara Koogan, 2011, p.21-31.
+
+RAW, A. S; FURNESS, M. S.; GILL, D. S.; ADAMS, R. C.; HOLCOMBE JR, F. O.; YU, L. X. Regulatory considerations of pharmaceutical solid polymorphism in Abbreviated New Drug Applications (ANDAs). Advanced Drug Deliveries Amsterdam, v. 56, n.3, p. 397-414, fev. 2004.
+
+VISHWESHWAR, P.; MCMAHON, J. A.; BIS, J. A.; ZAWOROTKO, M. J. Pharmaceutical co-crystals. Journal of Pharmaceutical Sciences, v.95, n.3, p.499516, mar. 2006.
+
 ## Pergunta de pesquisa
 
 O algoritmo machine learning desenvolvido é eficaz na identificação de polimorfos de fármacos para auxiliar a industria farmaceutica na produção de medicamentos de melhor solubilidade?
