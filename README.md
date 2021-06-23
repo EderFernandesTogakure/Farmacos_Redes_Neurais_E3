@@ -191,6 +191,8 @@ Após o modelo ter sido treinado, foram feitas as validações das imagens para 
 * Os erros do software ocorreram quando ele não foi capaz de fazer a delimitação de uma caixa delimitadora em uma forma polimórfica;
 * De todas as formas presentes nas imagens, o Software identificou 74,8% delas e não foi capaz de identificar 25,2% delas. 
 
+![WhatsApp Image 2021-06-22 at 21 54 24](https://user-images.githubusercontent.com/25067632/123018387-d7969780-d3a4-11eb-9d20-a105e4657d6b.jpeg)
+
 ![grafico](https://user-images.githubusercontent.com/25067632/123017790-aec1d280-d3a3-11eb-88cc-da1d07519d20.jpeg)
 
 
