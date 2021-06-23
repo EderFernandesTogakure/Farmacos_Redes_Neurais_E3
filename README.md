@@ -178,6 +178,25 @@ Base de Dados              |  Endereço na Web  |Resumo descritivo
 ---------------------------|-------------------|---------------
 Imagens Carbazepina e planilha analise         | https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/tree/main/data	           |Imagens tirados diretos do microscopio forma 1 e 3,foi separado as imagens de treino e teste, utilizando redes neurais convolucionais para detecção dos fármacos.
 
+## Integração entre Bases e Análise Exploratória
+
+Após o modelo ter sido treinado, foi feito um levantamento a partir de uma análise visual de todas as imagens preditas.
+
+Verificou-se, por imagem predita, a quantidade da forma 1 da Carbamazepina identificada pelo software, a quantidade da forma 1 da Carbamazepina identificada pelo especialista, a quantidade da forma 3 da Carbamazepina identifica pelo software e a quantidade da forma 3 da Carbamazepina identificada pelo especialista.
+Com esse levantamento, constatou-se que:
+
+* O software não classificou nenhuma forma polimórfica da forma errada, isto é, não confundiu a forma 1 com a forma 3 nem a forma 3 com a forma 1;
+* Os erros do software ocorreram quando ele não foi capaz de fazer a delimitação de uma caixa delimitadora em uma forma polimórfica;
+* De todas as formas presentes nas imagens, o Software identificou 74,8% delas e não foi capaz de identificar 25,2% delas.
+
+![image](https://user-images.githubusercontent.com/25067632/123181185-273b9880-d463-11eb-980e-1e062842215f.png)
+
+Também, para conseguir visualizar a distribuição do erro do software para cada forma polimórfica, foram utilizado os seguintes gráficos de boxplot:
+
+![image](https://user-images.githubusercontent.com/25067632/123181210-37ec0e80-d463-11eb-8ed3-2d68f87f4724.png)
+
+
+
 ## Análises realizadas 
 
 O projeto foi motivado em razão da dificuldade de identificação de formas polimorficas em diversos fármacos.
