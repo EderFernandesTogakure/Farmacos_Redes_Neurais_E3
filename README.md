@@ -202,7 +202,11 @@ Veja o resultado da predição na imagem abaixo
 
 ## Conclusão
 
+Na determinação do polimorfismo da Carbamazepina utilizando a ferramenta proposta, a exatidão dos resultados encontrados em comparação a avaliação de especialista, estabeleceu-se em 75% de acerto.
 
+Foi observada pequena variação nos resultados, sendo mais eficiente para avaliação e identificação da forma polimórfica III.
+
+Compreendemos e admitimos que a ferramenta proposta de mostra viável, de acordo com os resultados encontrados. E entendemos também, que há possibilidade de melhora de eficiência de identificação, principalmente com a ampliação do numero de imagens para treinamento do algoritmo proposto.
 
 ## Trabalhos futuros
 
