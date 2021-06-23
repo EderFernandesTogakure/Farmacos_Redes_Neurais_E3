@@ -124,7 +124,11 @@ Abaixo, segue imagem ilustrando o processo.
 
 ![relatório](https://user-images.githubusercontent.com/25067632/120075355-4ec35f00-c077-11eb-9fa7-cd96279ef307.jpg)
 
-  
+Após o modelo ter sido treinado, foi feita um levantamento a partir de uma analise vizual de todas as imagens preditas.
+
+Verificou-se, por imagem predita, a quantidade da forma 1 da Carbamazepina identifica pelo software, a quantidade da forma 1 da Carbamazepina identificada pelo especialista, a quantidade da forma 3 da Carbamazepina identifica pelo software e a quantidade da forma 3 da Carbamazepina identificada pelo especialista.
+
+Com estes dados coletados, pôde-se fazer a avaliação do modelo.  
 
 ## Ferramentas
 
