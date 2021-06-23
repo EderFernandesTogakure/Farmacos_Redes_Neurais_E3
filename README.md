@@ -168,25 +168,27 @@ Imagens Carbazepina e planilha analise         | https://github.com/EderFernande
 
 ## Análises realizadas 
 
-O projeto se inicializou com os problemas presentes nas formas polimorficas dos farmacos, na qual  dependendo do polimorfo presente no farmaco, poderia não ter sulobilidade no organismo de maneira adequada.
+O projeto foi motivado em razão da dificuldade de identificação de formas polimorficas em diversos fármacos.
 
-O processo de identificação dos polimorfos farmaceuticos e feito de forma manual por especialista, na qual foi pensado em automatizar este processo para ter um melhor controle de qualidade sobre estes polimorfos farmaceuticos.
+O processo de identificação dos polimorfos farmacêuticos é feito de forma visual por um especialista, na qual foi pensado em automatizar este processo para ter um melhor controle de qualidade sobre estes fármacos.
 
-A primeira parte do projeto não foi muito satifatorio pois estavamos diferenciando dois polimofos, um de cada farmaco, exemplo um polimorfo do farmaco Dipirona e outro da Carbamazepina, mas foi percebido que a intenção é descobrir polimorfos diferentes em um farmaco e indicar se o polimorfo presente naquele farmaco tem boa sulobilidade.
-
-Com isso foram feitas imagens de analises reais do farmaco Carbamazepina com dois tipos de polimorfos, um dos polimorfos com alta sulobilidade e outro com baixa sulobilidade, com estas imagens elaboradas foram feitas os seus aumentos de dados com pequenas distorções nas imagens afim de obter uma boa perfermance no treinamento.
+Foram feitas imagens de análises reais do fármaco Carbamazepina com dois tipos de polimorfos, os quais foram denotados como forma 1 e forma 3. Com estas imagens elaboradas foram feitas os seus aumentos de dados com pequenas distorções nas imagens a fim de obter uma boa performance no treinamento.
 
 Foram utilizado o modelo do YOLOv3 para treinamento, teste e validação destas imagens, veja logo abaixo um trecho do notebook para fazer o treinamento das imagens.
 
 ![cod1](https://user-images.githubusercontent.com/25067632/123013086-e0ce3700-d399-11eb-9d0d-9c93353c01bd.jpg)
 
-Depois de feito o trenamento e teste do modelo, foi elaborado a validação no trecho do notebook logo abaixo
+Depois de feito o treinamento e teste do modelo, foi elaborado a validação no trecho do notebook logo abaixo
 
 ![cod2](https://user-images.githubusercontent.com/25067632/123013428-95685880-d39a-11eb-90ae-5174e41a7a94.jpg)
 
 Veja o resultado da predição na imagem abaixo
 
 ![download](https://user-images.githubusercontent.com/25067632/123012748-37874100-d399-11eb-9856-b883afd3c212.png)
+
+Após o modelo ter sido treinado, foi feito um novo Data Augmentation para gerar novas imagens com o objetivo de atestar o resultado do modelo. De forma visual, foram levantados os seguintes resultados sobre a saída do modelo:
+O software não classificou nenhuma forma polimórfica da forma errada, isto é, não confundiu a forma 1 com a forma 3 nem a forma 3 com a forma 1;
+Os erros do software ocorreram quando ele não foi capaz de fazer a delimitação de uma caixa delimitadora em uma forma polimórfica
 
 
 
