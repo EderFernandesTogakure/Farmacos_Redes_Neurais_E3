@@ -159,6 +159,14 @@ Será detalhado todos os processos da imagem acima:
 
 ## Bases de Dados e Evolução
   As bases de dados utilizadas serão imagens de processos de identificação de componentes fármacos feitas em microscópios óticos de forma manual. 
+
+## Bases Estudadas mas não adotadas
+  As base de estudada inicial foram imagens de reagentes Oxalato de calcio na qual o objetivo inicial era testar algoritmo de detecção, ou seja, o foco era o algoritmo e não a area da saúde, logo não foi muito aprofundado este conceito.   
+ 
+Base de Dados              |  Endereço na Web  |Resumo descritivo
+---------------------------|-------------------|---------------
+Imagens de reagentes         | https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/tree/main/data_old	           |Imagens de reagentes para treino e teste da rede.
+  
 ## Bases Estudadas e Adotadas
 As bases de dados estudadas foram imagens de analise reais de polimorfos farmacos, na qual foram feitas pelo farmaceuto da equipe.
 
@@ -166,7 +174,7 @@ Com estas imagens adquiridas foram feitos os devidos aumentos de dados destas im
 
 Com o treinamento, testes e validação destes dados foi descoberto que é possivel fazer a deteção dos polimorfos farmacos, logo agilizando o processo de identificação do mesmo. 
 
-Base de Dados              |  Endereço na Web  |Especialização
+Base de Dados              |  Endereço na Web  |Resumo descritivo
 ---------------------------|-------------------|---------------
 Imagens Carbazepina e planilha analise         | https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/tree/main/data	           |Imagens tirados diretos do microscopio forma 1 e 3,foi separado as imagens de treino e teste, utilizando redes neurais convolucionais para detecção dos fármacos.
 
