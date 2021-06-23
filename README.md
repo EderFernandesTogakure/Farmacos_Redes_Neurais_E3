@@ -186,12 +186,11 @@ Veja o resultado da predição na imagem abaixo
 
 ![download](https://user-images.githubusercontent.com/25067632/123012748-37874100-d399-11eb-9856-b883afd3c212.png)
 
-Após o modelo ter sido treinado, foi feito um novo Data Augmentation para gerar novas imagens com o objetivo de atestar o resultado do modelo. De forma visual, foram levantados os seguintes resultados sobre a saída do modelo:
-O software não classificou nenhuma forma polimórfica da forma errada, isto é, não confundiu a forma 1 com a forma 3 nem a forma 3 com a forma 1;
-Os erros do software ocorreram quando ele não foi capaz de fazer a delimitação de uma caixa delimitadora em uma forma polimórfica
+Após o modelo ter sido treinado, foram feitas as validações das imagens para testar o modelo. De forma visual, foram levantados os seguintes resultados sobre a saída do modelo:
+* O software não classificou nenhuma forma polimórfica da forma errada, isto é, não confundiu a forma 1 com a forma 3 nem a forma 3 com a forma 1;
+* Os erros do software ocorreram quando ele não foi capaz de fazer a delimitação de uma caixa delimitadora em uma forma polimórfica
 
-
-
+![grafico](https://user-images.githubusercontent.com/25067632/123017790-aec1d280-d3a3-11eb-88cc-da1d07519d20.jpeg)
 
 
 ## Resultados/discussão
