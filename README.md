@@ -188,7 +188,8 @@ Veja o resultado da predição na imagem abaixo
 
 Após o modelo ter sido treinado, foram feitas as validações das imagens para testar o modelo. De forma visual, foram levantados os seguintes resultados sobre a saída do modelo:
 * O software não classificou nenhuma forma polimórfica da forma errada, isto é, não confundiu a forma 1 com a forma 3 nem a forma 3 com a forma 1;
-* Os erros do software ocorreram quando ele não foi capaz de fazer a delimitação de uma caixa delimitadora em uma forma polimórfica
+* Os erros do software ocorreram quando ele não foi capaz de fazer a delimitação de uma caixa delimitadora em uma forma polimórfica;
+* De todas as formas presentes nas imagens, o Software identificou 74,8% delas e não foi capaz de identificar 25,2% delas. 
 
 ![grafico](https://user-images.githubusercontent.com/25067632/123017790-aec1d280-d3a3-11eb-88cc-da1d07519d20.jpeg)
 
