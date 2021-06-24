@@ -37,6 +37,11 @@ Wellington Cesar Alves     | 261819 |Saúde
 
 [Slide da proposta do projeto](https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/blob/main/assets/Proposta.pptx).
 
+## Slide da Apresentação final
+
+[Slide da proposta do projeto](https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/blob/main/assets/projeto_final.pptx).
+
+
 # Introdução e Referenciais de Teóricos
 
 ## Contextualização do projeto
@@ -124,7 +129,7 @@ Abaixo, segue imagem ilustrando o processo.
 
 ![relatório](https://user-images.githubusercontent.com/25067632/120075355-4ec35f00-c077-11eb-9fa7-cd96279ef307.jpg)
 
-Após o modelo ter sido treinado, foi feita um levantamento a partir de uma analise vizual de todas as imagens preditas.
+Após o modelo ter sido treinado, foi feito um levantamento a partir de uma analise vizual de todas as imagens preditas.
 
 Verificou-se, por imagem predita, a quantidade da forma 1 da Carbamazepina identifica pelo software, a quantidade da forma 1 da Carbamazepina identificada pelo especialista, a quantidade da forma 3 da Carbamazepina identifica pelo software e a quantidade da forma 3 da Carbamazepina identificada pelo especialista.
 
@@ -144,7 +149,7 @@ Com estes dados coletados, pôde-se fazer a avaliação do modelo.
 
 ## Detalhamento e evolução do projeto
 
-O projeto irá adotar tecnologia baseada em redes neurais convolucionais, ou seja, para um melhor entendimento, inteligência artificial em conjunto com processamento de imagem
+O projeto irá adotar tecnologia baseada em redes neurais convolucionais, ou seja, para um melhor entendimento, inteligência artificial em conjunto com processamento de imagem.
 Veja a figura abaixo uma figura demonstrando os passos para elaboração do projeto.
 
 ![imagem_projeto2](https://user-images.githubusercontent.com/25067632/113519557-6d1f4980-9563-11eb-8c51-af6f37edc15c.jpg)
@@ -152,7 +157,7 @@ Veja a figura abaixo uma figura demonstrando os passos para elaboração do proj
 Será detalhado todos os processos da imagem acima:
 
 * Primeiro tópico obtendo datasets. Os datasets são as imagens que serão inseridas no sistema para o treinamento da detecção dos polimorfos, quanto mais imagens forem obtidas para o treinamento e teste, maior será a precisão da detecção;
-* O pré-processamento e aumento das imagens. Nesta etapa, são extraídas as imagens originais, ou seja, os datasets das imagens são inseridos no sistema e faz as cópias delas com pequenas alterações nos arquivos para aumentar a precisão das detecções;
+* O pré-processamento e aumento das imagens. Nesta etapa, são extraídas as imagens originais, ou seja, os datasets das imagens são inseridos no sistema e faz-se as cópias delas com pequenas alterações nos arquivos para aumentar a precisão das detecções;
 * Classificação das imagens. Esta etapa é muito importante para um bom treinamento da rede neural convolucional, pois somente inserir as imagens no sistema não é o suficiente. Deve-se classificar os compostos dentro da imagem a serem treinados, ou seja, demonstrar cada polimorfo, demarcando-os com uma ferramenta específica de classificação;
 * Processo de execução dos treinos e testes de validação de dados. Nesta etapa do processo, é realizado o treinamento da rede neural convolucional, ou seja, está sendo ensinado como detectar os compostos descritos na imagem;
 * Execução dos dados treinados e validados em produção. Esta é a etapa final, na qual a rede neural foi treinada e agora fará a detecção dos polimorfos da maneira que foi programada. 
@@ -168,7 +173,7 @@ Base de Dados              |  Endereço na Web  |Resumo descritivo
 Imagens de reagentes         | https://github.com/EderFernandesTogakure/Farmacos_Redes_Neurais_E3/tree/main/data_old	           |Imagens de reagentes para treino e teste da rede.
   
 ## Bases Estudadas e Adotadas
-As bases de dados estudadas foram imagens de analise reais de polimorfos farmacos, na qual foram feitas pelo farmaceuto da equipe.
+As bases de dados estudadas foram imagens de análise reais de polimorfos fármacos, na qual foram feitas pelo farmacêuto da equipe.
 
 Com estas imagens adquiridas foram feitos os devidos aumentos de dados destas imagens, para serem  utilizadas para treinamento, teste e validação dos componentes farmaceuticos.
 
@@ -199,7 +204,7 @@ Também, para conseguir visualizar a distribuição do erro do software para cad
 
 ## Análises realizadas 
 
-O projeto foi motivado em razão da dificuldade de identificação de formas polimorficas em diversos fármacos.
+O projeto foi motivado em razão da dificuldade de identificação de formas polimórficas em diversos fármacos.
 
 O processo de identificação dos polimorfos farmacêuticos é feito de forma visual por um especialista, na qual foi pensado em automatizar este processo para ter um melhor controle de qualidade sobre estes fármacos.
 
@@ -227,13 +232,13 @@ Após o modelo ter sido treinado, foram feitas as validações das imagens para 
 ![grafico](https://user-images.githubusercontent.com/25067632/123017790-aec1d280-d3a3-11eb-88cc-da1d07519d20.jpeg)
 
 
-## Resultados/discussão
+## Resultados e discussão
 
   Na determinação do polimorfismo da Carbamazepina utilizando a ferramenta proposta, a exatidão dos resultados encontrados em comparação a avaliação de especialista, estabeleceu-se em 75% de acerto.
   
   Foi observada pequena variação nos resultados, sendo mais eficiente para avaliação e identificação da forma polimórfica III.
   
-  Compreendemos e admitimos que a ferramenta proposta se mostra viável, de acordo com os resultados encontrados. E entendemos também, que há possibilidade de melhora de eficiência de identificação, principalmente com a ampliação do numero de imagens para treinamento do algoritmo proposto.
+  Compreendemos e admitimos que a ferramenta proposta se mostra viável, de acordo com os resultados encontrados. E entendemos também que há possibilidade de melhora de eficiência de identificação, principalmente com a ampliação do numero de imagens para treinamento do algoritmo proposto.
 
 ## Conclusão
 
