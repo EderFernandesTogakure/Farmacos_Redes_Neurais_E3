@@ -30,6 +30,9 @@ Wellington Cesar Alves     | 261819 |Saúde
 
 [Video de apresentação de Ciência de Dados em Saúde - Proposta](https://youtu.be/6PfZkR7TSeM).
 
+## Vídeo da apresentação final.
+
+[Video de apresentação de Ciência de Dados em Saúde - Apresentação final](https://youtu.be/1n9amQ7E4HI).
 
 # Slides do Projeto
 
